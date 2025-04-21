@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 
 class View(ABC):
     @abstractmethod
-    def dispaly (self, message: str):
+    def display (self, message: str):
         pass
 
 
